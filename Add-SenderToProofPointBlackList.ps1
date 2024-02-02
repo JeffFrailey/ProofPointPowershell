@@ -20,7 +20,7 @@ if($Session -eq $null){
     $headers.Add('X-Password', $AdminPass)
     #Set session variable check to true
     $Session = $true
-}#End connect with graph
+}#End statement to declare credential and domain session variables
 
 
 #Variables
